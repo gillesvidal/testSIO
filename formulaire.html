@@ -1,0 +1,74 @@
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="fr" lang="fr">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+	<title>Informations</title>
+
+	<!-- Appel de la feuille de style -->
+	<link rel="stylesheet" type="text/css" href="./styles/cssForm.css" media="all" />
+		
+</head>
+
+<body>
+<form method="post" action="questionnaire.php">
+	<fieldset>
+		<legend>Coordonnées</legend> 
+		<table>
+			<tr>
+				<td width=100px>
+					<label for="titre">Titre</label>
+				</td>
+				<td width=100px>
+					<select name="titre">
+						<option value="Mme" selected="selected">Madame</option>
+						<option value="Mlle">Mademoiselle</option>
+						<option value="Mr">Monsieur</option>
+					</select>
+				</td>
+			</tr>
+			<tr>
+				<td width=100px>
+					<label for="nom">Nom</label>
+				</td>
+				<td width=100px>
+					<input type="text" name="nom" id="nom" />
+				</td>
+			</tr>
+		</table>
+   <label for="prenom">Prénom</label>
+    <input type="text" name="prenom" id="prenom" />
+   <br />
+   <label for="email">Email</label>
+    <input type="text" name="email" id="email" />
+   <br />
+   <label for="tel">Téléphone</label>
+    <input type="text" name="tel" id="tel" /><br />
+</fieldset>
+
+<fieldset>
+  <legend>Situation familiale</legend> 
+  <p>
+   Quel est votre statut ?<br />
+   <input type="radio" name="celibat" value="celibat" id="celibat" /> <label for="celibat">Célibataire</label><br />
+   <input type="radio" name="marie" value="marie" id="marie" /> <label for="marie">Marié</label><br />
+   <input type="radio" name="divorce" value="divorce" id="divorce" /> <label for="divorce">Divorcé</label><br />
+  </p>
+  <p>
+   Si vous avez des enfants, combien en avez vous ? <br />
+   <input type="radio" name="deux" value="deux" id="deux" /> <label for="deux">1-2 enfants</label><br />
+   <input type="radio" name="quatre" value="quatre" id="quatre" /> <label for="quatre">3-4 enfants</label><br />
+   <input type="radio" name="cinq" value="cinq" id="cind" /> <label for="cinq">5 enfants ou plus</label><br /> </p>
+  </fieldset>
+   <fieldset>
+  <legend>Centres d'intérêt</legend> 
+  <p>
+   Quels sont vos centres d'intérêt ?<br />
+   <input type="checkbox" name="musique" id="musique" /> <label for="musique">musique</label><br />
+   <input type="checkbox" name="politique" id="politique" /> <label for="politique">politique</label><br />
+   <input type="checkbox" name="informatique" id="informatique" /> <label for="informatique">informatique</label><br />
+   <input type="checkbox" name="cuisine" id="cuisine" /> <label for="cuisine">cuisine</label><br />
+  </p>
+</fieldset>
+</form>
+
+	</body>
+</html>

@@ -1,0 +1,180 @@
+/* style appliqué à la balise body */
+body {
+	background-color: yellow; /*#d0e4fe;*/
+	font-family: "Arial";
+}
+
+p{
+	color : green
+}
+
+p.vert{
+	color : green
+}
+
+p.rouge {
+	color : red
+}
+
+.vert{
+	color:green
+}
+
+.remarque {
+	font-size:small;
+	text-align:center;
+	color:blue;
+}
+
+.note {
+	font-size: large;
+	text-align:right;
+	color:red;
+}
+
+.normal {
+	font-size: medium;
+}
+
+#blocInfo {
+	background-color: white;
+	color : blue ;
+}
+
+h1,h2,h3 {
+	color:blue;
+}
+
+h4, .paragraphe, #idspecial {
+	color : red;
+	font-weight : bold;
+}
+
+.vert {
+	color:green;
+}
+
+.centre{
+	text-align : center;
+}
+
+.gras {
+	font-weight:bold;
+}
+
+.fondjaune {
+	background-color:yellow;
+}
+
+.boitenoire{
+	background-color:#000000;
+	color: #FFFFFF;
+	font-size:24px;
+	width:6cm;
+	height:4cm;
+	margin: 1cm;
+}
+
+.boitespan {
+	border: solid 2px #990000 ;
+}
+
+.stylespan {
+	background-color:#00FF00;
+	text-decoration: underline;
+	font-weight: bold;
+}
+
+.marge{
+	margin: 4cm;
+}
+
+.padding {
+	border: solid 3px white;/*#990000;*/ 
+	padding: 50px;
+	width: 350px;
+	text-align: justify;
+}
+
+div{
+	border: solid 2px #000099;
+}
+
+.largeur {
+	width: 60%;
+	text-align: justify;
+}
+
+p {
+	width: 200px;
+	height: 100px;
+	text-align: justify;
+}
+
+.couper{
+	overflow: scroll;
+}
+
+.pos{
+	background-color: black;
+	border: 2px solid black;
+	position: absolute; 
+	left: 50px;
+	top:10px;
+}
+
+.imageflottante {
+	float: right;
+}
+/*
+p:first-letter {
+	float: left;
+	font-size: 3em;
+	font-weight: bold;
+	margin-right: 5px;
+}
+*/
+#numero1 {
+	background-color:red; 
+	position:relative;
+	top:25px;
+	left:25px;
+	width:50px;
+	height:50px;
+	z-index:1;
+}
+
+#numero2 {
+	background-color:green; 
+	position:relative;
+	top:50px;
+	left:50px;
+	width:50px;
+	height:50px;
+	z-index:2;
+}
+
+#numero3 {
+	background-color:yellow; 
+	position:relative;
+	top:75px;
+	left:75px;
+	width:50px;
+	height:50px;
+	z-index:3;
+}
+
+.content {
+  float: left;
+  width: 70%;
+}
+.menu {
+  margin-left: 80%;
+  border: 3px solid black;
+  padding: 1em;
+}
+
+.image {
+  float: left;
+  /*width: 70%;*/
+}

@@ -1,0 +1,24 @@
+/* Police du texte tapé l'intérieur des champs et mettre une marge à gauche */ 
+input, textarea, select {
+	font-family: "Times New Roman", Times, serif;
+	font-size:12px;
+	margin-left: 30px
+}
+
+label{
+	color: #663399; /* Colorer en bleu tous les labels (bah oui, pourquoi pas en bleu ?) */
+	font-weight: bold ;
+}
+
+/* Mettre les titres du groupe en caractères plus grands, en gras et spécifier une couleur*/
+legend {
+	color: #663399; 
+	font-weight: bold;
+	font-size:24px;
+}
+
+/* Mettre une séparation entre les fieldset et colorer l'arrière plan */
+fieldset {
+	margin-bottom: 20px; 
+	background-color: #FEDAD3;
+}
